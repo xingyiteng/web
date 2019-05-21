@@ -252,8 +252,19 @@
     background: #487af6;
 }
 .sq ul{
-    border: 1px solid red;
-    height: 200px;
+    padding: 15px;
+    height: auto;
+    background: rgb(0, 174, 255,1);
+    border-radius: 10px;
+}
+.sq ul li a{
+    display: block;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 15px;
+    color: #fff;
+    border-bottom:1px solid #eee;
 }
 .hb{
     width: 100%;
@@ -301,7 +312,6 @@
     width: 100%;
     position: relative;
     background: url('../img/footer.png');
-    border: 1px solid red;
 }
 .footer .footer_l,.footer .footer_r{
     height: 118px;
@@ -309,15 +319,12 @@
 }
 .footer .footer_l ul{
     line-height: 118px;
-    text-align: center;
-    display: flex;
 }
 .footer .footer_l ul li{
     display: flex;
-    margin: 0 auto;
+    justify-content: space-around;
 }
 .footer .footer_l ul li a{
-    padding-left: 50px;
     color: #fff;
     font-size: 16px;
 }
@@ -336,7 +343,7 @@
     padding-left: 10px;
 }
 .footer_r p{
-    width: 62%;
+    width: 83%;
     margin-top: 15px;
     color: #B5C0D4;
     text-align: center;
