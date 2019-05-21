@@ -49,7 +49,6 @@
 .content{
     width: 100%;
     margin: 0 auto;
-    height: 2000px;
     margin-top: 50px;
 }
 .content .blyq .blyq_tit{
@@ -196,7 +195,6 @@
     border-bottom-right-radius: 5px;
 }
 .box{
-    width: 1170px;
     margin: 0 auto;
 }
 .content .box .bk_tit,.sq_tit{
@@ -258,12 +256,16 @@
     height: 200px;
 }
 .hb{
+    width: 100%;
     margin: 0 auto; 
-    margin-top: px;
+    position: relative;
+    background: #F7FAFC;
 }
 
 .content .hb .hb_tit{
     margin: 0 auto;
+    width: 75%;
+    padding-top: 40px;
     position: relative;
 }
 .content .hb .hb_tit img{
@@ -288,11 +290,63 @@
     border-radius: 20px;
     border: 1px solid #487af6;
 }
+.content .hb .hb_con{
+}
 .content .hb .hb_con img{
     width: 100%;
+    margin-bottom: 30px;
 }
 .footer{
+    clear: both;
     width: 100%;
-    height: 200px;
-    background: url("img/footer.png");
+    position: relative;
+    background: url('../img/footer.png');
+    border: 1px solid red;
+}
+.footer .footer_l,.footer .footer_r{
+    height: 118px;
+    position: relative;
+}
+.footer .footer_l ul{
+    line-height: 118px;
+    text-align: center;
+    display: flex;
+}
+.footer .footer_l ul li{
+    display: flex;
+    margin: 0 auto;
+}
+.footer .footer_l ul li a{
+    padding-left: 50px;
+    color: #fff;
+    font-size: 16px;
+}
+.footer .footer_l span{
+    position: absolute;
+    margin-top: 20px;
+    right: 0;
+    border: 1px solid #8791a5;
+    height: 80px;
+}
+.icon{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.icon i{
+    padding-left: 10px;
+}
+.footer_r p{
+    width: 62%;
+    margin-top: 15px;
+    color: #B5C0D4;
+    text-align: center;
+}
+.footer_d{
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+    color: #F6F9FC;
+    background: #5c6679;
+    text-align: center;
+    font-size: 12px;
 }
