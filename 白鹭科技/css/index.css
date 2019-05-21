@@ -22,6 +22,7 @@
 .header .nav ul{
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 .header .nav ul li{
     line-height: 58px;
@@ -47,14 +48,35 @@
 }
 .content{
     width: 100%;
-    height: 20000px;
+    margin: 0 auto;
+    height: 2000px;
     margin-top: 50px;
 }
 .content .blyq .blyq_tit{
     margin: 0 auto;
+    position: relative;
+}
+.content .blyq .blyq_tit img{
+    display: inline-block;
+    margin-bottom: 10px;
 }
 .content .blyq .blyq_tit p{
     font-size: 26px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.content .blyq .blyq_tit a,.content .altj .altj_tit a{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 75px;
+    text-align: center;
+    line-height: 24px;
+    height: 24px;
+    color: #487af6;
+    border-radius: 20px;
+    border: 1px solid #487af6;
 }
 .content .blyq .blyq_con{
     margin: 0 auto;
@@ -85,15 +107,25 @@
 }
 .content .altj{
     margin: 0 auto;
+    margin-top: 50px;
 }
 .content .altj .altj_tit{
     margin: 0 auto;
+    position: relative;
+}
+.content .altj .altj_tit img{
+    display: inline-block;
+    margin-bottom: 10px;
 }
 .content .altj .altj_tit p{
     font-size: 26px;
+    display: inline-block;
+    padding-left: 10px;
 }
 .content .altj .altj_row {
     width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 .content .altj .altj_row img{
     width: 100%;
@@ -101,7 +133,7 @@
     border-top-left-radius: 5px;
 }
 .content .altj .altj_nr{
-    height: 100px;
+    height: auto;
     box-shadow: 2px 2px 3px #eee;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -116,4 +148,151 @@
 .content .altj .altj_nr p:nth-child(2){
     font-size: 16px;
     color: #c4c1c1;
+}
+.content .dt{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.content .dt .dt_con img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.content .dt .dt_tit{
+    margin: 0 auto;
+    position: relative;
+}
+.content .dt .dt_tit img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.content .dt .dt_tit p{
+    font-size: 26px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.content .dt .dt_tit a{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 75px;
+    text-align: center;
+    line-height: 24px;
+    height: 24px;
+    color: #487af6;
+    border-radius: 20px;
+    border: 1px solid #487af6;
+}
+.content .dt .dt_con{
+    margin-top: 40px;
+}
+.content .dt .dt_con a{
+    padding-top: 15px;
+    display: block;
+    height: 50px;
+    box-shadow: 2px 2px 6px #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box{
+    width: 1170px;
+    margin: 0 auto;
+}
+.content .box .bk_tit,.sq_tit{
+    margin: 0 auto;
+    position: relative;
+}
+.content .box .bk_tit img,.sq_tit img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.content .box .bk_tit p,.sq_tit p{
+    font-size: 26px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.content .bk .bk_tit a,.sq_tit a{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 75px;
+    text-align: center;
+    line-height: 24px;
+    height: 24px;
+    color: #487af6;
+    border-radius: 20px;
+    border: 1px solid #487af6;
+}
+.content .bk .bk_con img{
+    width: 50%;
+    border-radius: 15px;
+}
+.bk_con_r{
+    width: 330px;
+    position: relative;
+    margin-left: -150px;
+}
+.bk_con_r p:nth-child(1){
+    padding-top: 10px;
+}
+.bk_con_r p:nth-child(2){
+    padding-top: 20px;
+    color: #9c9fae;
+}
+.bk_con_r a{
+    position: absolute;
+    margin-top: 20px;
+    display: block;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    background: #487af6;
+}
+.sq ul{
+    border: 1px solid red;
+    height: 200px;
+}
+.hb{
+    margin: 0 auto; 
+    margin-top: px;
+}
+
+.content .hb .hb_tit{
+    margin: 0 auto;
+    position: relative;
+}
+.content .hb .hb_tit img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.content .hb .hb_tit p{
+    font-size: 26px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.content .hb .hb_tit a{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 75px;
+    text-align: center;
+    line-height: 24px;
+    height: 24px;
+    color: #487af6;
+    border-radius: 20px;
+    border: 1px solid #487af6;
+}
+.content .hb .hb_con img{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: url("img/footer.png");
 }
